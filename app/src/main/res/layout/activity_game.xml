@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:elevation="@dimen/elevation_high"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/countimer"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textAlignment="gravity" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Switch
+            android:id="@+id/switchToggle"
+            android:layout_width="50dp"
+            android:layout_height="10dp"
+            android:checked="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp">
+
+        <TextView
+            android:id="@+id/ResD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Guess:"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="@dimen/menu_text_size" />
+
+        <TextView
+            android:id="@+id/question_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="@dimen/menu_text_size" />
+
+
+        <EditText
+            android:id="@+id/Edit_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="@dimen/menu_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/colorBoolean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/key1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/key2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:text="2" />
+
+        <Button
+            android:id="@+id/key3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/key4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/key5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/key6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="6" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/key7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="7" />
+
+
+        <Button
+            android:id="@+id/key8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/key9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/keyDel"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="DEL" />
+
+        <Button
+            android:id="@+id/key0"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/keyHash"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="#" />
+
+
+        <Button
+            android:id="@+id/keyMinus"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="-" />
+
+    </LinearLayout>
+
+</LinearLayout>
